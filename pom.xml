@@ -57,10 +57,12 @@
                             <artifactSet>
                                 <excludes>
                                     <exclude>org.apache.commons:*</exclude>
-
-                                    <exclude>commons-codec:commons-codec</exclude>
-                                    <exclude>commons-io:*</exclude>
-                                    <exclude>commons-logging:*</exclude>
+                                    <!-- Removed 3, Added 2 per https://github.com/HtmlUnit/htmlunit-android/issues/2#issuecomment-1064730655 
+                                             commons-codec:commons-codec
+                                             commons-io:*
+                                             commons-logging:* -->
+                                    <exclude>netscape/package-info.class</exclude>
+                                    <exclude>netscape/javascript/package-info.class</exclude>                                    
                                     <exclude>commons-net:*</exclude>
 
                                     <exclude>org.brotli:*</exclude>
