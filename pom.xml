@@ -195,7 +195,7 @@
     <dependencies>
         <dependency>
             <groupId>net.sourceforge.htmlunit</groupId>
-            <artifactId>htmlunit-android</artifactId>
+            <artifactId>htmlunit</artifactId>
             <version>${htmlunit.version}</version>
         </dependency>
 
