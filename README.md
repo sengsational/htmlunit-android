@@ -56,8 +56,16 @@ Contributing
 Pull Requests and and all other Community Contributions are essential for open source software.
 Every contribution - from bug reports to feature requests, typos to full new features - are greatly appreciated.
 
+Building Project Source
+--------
+To build this project in Android Studio:
+ * Fork the project to your own repository using the fork button here: https://github.com/HtmlUnit/htmlunit-android.
+ * In Android Studio, select `VCS` > `Get from Version Control...` > `https://github.com/(yourGitHubId)/htmlunit-android` > `Clone` button > `New Window`
+ * // TODO: PLEASE UPDATE THIS OF STEPS SO THAT THE RESULT SPECIFIES HOW TO BUILD THE PROJECT IN ANDROID STUDIO
 
-Latest CI build
+
+
+Last CI build
 --------
 Usually snapshot builds are available based on the latest HtmlUnit code.
 
